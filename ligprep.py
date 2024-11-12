@@ -1,5 +1,6 @@
 import sys, rdkit, meeko
 from rdkit.Chem import AllChem
+#Ligand folding for docking
 
 for elem in open(sys.argv[1], 'r'):
 	smiles = elem.rstrip("\n").split("\t")[-1]
